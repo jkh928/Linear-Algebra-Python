@@ -5,3 +5,15 @@
 # Python compiled files (optional but good)
 __pycache__/
 *.pyc
+
+# Ignore the D-drive environment files if they are inside your project folder
+conda_envs/
+la_env/
+*.pyc
+.ipynb_checkpoints/
+
+# PyCharm project settings
+.idea/
+
+# Anaconda/Conda local files
+.conda/
