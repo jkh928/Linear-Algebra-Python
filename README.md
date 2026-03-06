@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/subspace-banner.png" 
+       alt="Linear Algebra Subspace Banner"
+       style="width: 100%; max-width: 100%; height: 250px; display: block; object-fit: cover; object-position: center; border-radius: 10px;">
+</p>
 # Linear Algebra & NumPy: AI Foundations
 
 > **Status:** Active Study 
