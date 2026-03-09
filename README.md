@@ -3,6 +3,7 @@
        alt="Linear Algebra Subspace Banner"
        style="width: 100%; max-width: 100%; height: 250px; display: block; object-fit: cover; object-position: center; border-radius: 10px;">
 </p>
+
 # Linear Algebra & NumPy: AI Foundations
 
 > **Status:** Active Study 
@@ -23,16 +24,22 @@ I am utilizing **Python** and **NumPy** to implement these concepts manually, br
 
 ### `01-Course-Notes/`
 **Primary Resource:** *Master Linear Algebra: Theory and Implementation in Code* (Mike X Cohen)
-* Detailed code-along notebooks.
-* Implementation of core concepts:
-    * Vectors & Spaces (Dot products, spans, basis vectors)
-    * Matrix Operations (Multiplication, Inverse, Rank)
-    * Eigendecomposition & SVD
-    * Least Squares & Projections
+* **Detailed code-along notebooks:**
+  * Vectors & Spaces (Dot products, spans, basis vectors)
+  * Matrix Operations (Multiplication, Inverse, Rank)
+  * Eigendecomposition & SVD
+  * Least Squares & Projections
+* **Vectors & Spaces:**
+  * **The Span:** Deep dive into the infinite reach of linear combinations.
+  * **Algorithmic Verifier:** Developed a custom Python tool using `np.linalg.matrix_rank` to programmatically validate subspace membership. This ensures that any target vector is mathematically "reachable" before proceeding with downstream model transformations.
 
 ### `02-Experiments/`
-* My own sandbox for testing concepts.
-* Independent challenges and implementations of algorithms from scratch without relying on pre-built solver functions.
+* **My own sandbox for testing concepts:**
+  * Independent challenges and implementations of algorithms from scratch without relying on pre-built solver functions.
+* **3D Subspace Visualization Engine:**
+  * Developed a coordinate-projection tool to visualize how basis vectors define a 2D subspace within 3D space.
+  * Implemented cross-product normal calculations to render infinite planes using `np.meshgrid` and `plot_surface`.
+  * Integrated axis-limit constraints and camera-angle adjustments to ensure clear spatial orientation of vector-plane relationships.
 
 ## 🚀 Why This Matters for AI
 Understanding these concepts is critical for:
